@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Dog Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐶 My Dog Gallery</h1>
+    <p>A collection of my favorite dog moments</p>
+</header>
+
+<div class="filters">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('puppies')">Puppies</button>
+    <button onclick="filterImages('rescue')">Rescue</button>
+    <button onclick="filterImages('fun')">Fun</button>
+</div>
+
+<div class="gallery">
+
+<img src="images/dog1.jpg"
+class="gallery-img puppies"
+onclick="openImage(0)">
+
+<img src="images/dog2.jpg"
+class="gallery-img puppies"
+onclick="openImage(1)">
+
+<img src="images/dog3.jpg"
+class="gallery-img rescue"
+onclick="openImage(2)">
+
+<img src="images/dog4.jpg"
+class="gallery-img rescue"
+onclick="openImage(3)">
+
+<img src="images/dog5.jpg"
+class="gallery-img fun"
+onclick="openImage(4)">
+
+<img src="images/dog6.jpg"
+class="gallery-img fun"
+onclick="openImage(5)">
+
+</div>
+
+<div id="lightbox">
+
+<span class="close" onclick="closeImage()">✖</span>
+
+<button class="prev" onclick="prevImage()">❮</button>
+
+<img id="lightbox-img">
+
+<button class="next" onclick="nextImage()">❯</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
