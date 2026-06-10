@@ -34,8 +34,10 @@ A responsive image gallery built using HTML, CSS, and JavaScript with lightbox v
 
 ---
 
+## 👩🏻‍💻 Author
+V.V.K. Mahalakshmi
 
-## V.V.K. Mahalakshmi
+---
 
 ## License
 
